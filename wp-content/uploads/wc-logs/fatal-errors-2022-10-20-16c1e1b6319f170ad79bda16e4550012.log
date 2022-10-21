@@ -1,0 +1,22 @@
+2022-10-20T05:59:38+00:00 CRITICAL Uncaught Error: Class 'XMLReader' not found in /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php:127
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php(350): WXRImporter->get_reader()
+#1 /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/class-import.php(400): WXRImporter->import()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(307): Athemes_Starter_Sites_Import->ajax_import_contents()
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /var/www/html/wordpress/wp-admin/admin-ajax.php(187): do_action()
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php on line 127
+
+2022-10-20T06:06:11+00:00 CRITICAL Uncaught Error: Class 'XMLReader' not found in /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php:127
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php(350): WXRImporter->get_reader()
+#1 /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/class-import.php(400): WXRImporter->import()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(307): Athemes_Starter_Sites_Import->ajax_import_contents()
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /var/www/html/wordpress/wp-admin/admin-ajax.php(187): do_action()
+#6 {main}
+  thrown in /var/www/html/wordpress/wp-content/plugins/athemes-starter-sites/import/wp-content-importer-v2/WXRImporter.php on line 127
+

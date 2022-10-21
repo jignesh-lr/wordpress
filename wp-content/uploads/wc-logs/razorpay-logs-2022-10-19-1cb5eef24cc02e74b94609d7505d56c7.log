@@ -1,0 +1,43 @@
+2022-10-19T13:29:11+00:00 ERROR Key Id and Key Secret are required.
+2022-10-19T13:29:11+00:00 INFO getRazorpayPaymentParams 62
+2022-10-19T13:29:11+00:00 INFO createOrGetRazorpayOrderId 62 and is1ccCheckout is set to no
+2022-10-19T13:29:11+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 62 and is_magic_checkout_order is set to no
+2022-10-19T13:29:11+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id62
+2022-10-19T13:29:11+00:00 INFO Called createRazorpayOrderId with params orderId 62 and sessionKey razorpay_order_id62
+2022-10-19T13:29:11+00:00 INFO Called getOrderCreationData with params orderId 62
+2022-10-19T13:29:11+00:00 INFO Called getOrderCreationData with params orderId 62 and is1ccOrder is set to no
+2022-10-19T13:29:11+00:00 INFO For order 62
+2022-10-19T13:29:11+00:00 INFO {"receipt":62,"amount":9000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"62"}}
+2022-10-19T13:29:54+00:00 INFO Called process_payment with params order_id 62
+2022-10-19T13:29:54+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 62
+2022-10-19T13:29:54+00:00 INFO getRazorpayPaymentParams 62
+2022-10-19T13:29:54+00:00 INFO createOrGetRazorpayOrderId 62 and is1ccCheckout is set to no
+2022-10-19T13:29:54+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 62 and is_magic_checkout_order is set to no
+2022-10-19T13:29:54+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id62
+2022-10-19T13:29:54+00:00 INFO Called createRazorpayOrderId with params orderId 62 and sessionKey razorpay_order_id62
+2022-10-19T13:29:54+00:00 INFO Called getOrderCreationData with params orderId 62
+2022-10-19T13:29:54+00:00 INFO Called getOrderCreationData with params orderId 62 and is1ccOrder is set to no
+2022-10-19T13:29:54+00:00 INFO For order 62
+2022-10-19T13:29:54+00:00 INFO {"receipt":62,"amount":9000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"62"}}
+2022-10-19T13:32:11+00:00 INFO Called process_payment with params order_id 63
+2022-10-19T13:32:11+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 63
+2022-10-19T13:32:11+00:00 INFO getRazorpayPaymentParams 63
+2022-10-19T13:32:11+00:00 INFO createOrGetRazorpayOrderId 63 and is1ccCheckout is set to no
+2022-10-19T13:32:11+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 63 and is_magic_checkout_order is set to no
+2022-10-19T13:32:11+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id63
+2022-10-19T13:32:11+00:00 INFO Called createRazorpayOrderId with params orderId 63 and sessionKey razorpay_order_id63
+2022-10-19T13:32:11+00:00 INFO Called getOrderCreationData with params orderId 63
+2022-10-19T13:32:11+00:00 INFO Called getOrderCreationData with params orderId 63 and is1ccOrder is set to no
+2022-10-19T13:32:11+00:00 INFO For order 63
+2022-10-19T13:32:11+00:00 INFO {"receipt":63,"amount":1800,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"63"}}
+2022-10-19T13:56:41+00:00 INFO Called process_payment with params order_id 71
+2022-10-19T13:56:41+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 71
+2022-10-19T13:56:41+00:00 INFO getRazorpayPaymentParams 71
+2022-10-19T13:56:41+00:00 INFO createOrGetRazorpayOrderId 71 and is1ccCheckout is set to no
+2022-10-19T13:56:41+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 71 and is_magic_checkout_order is set to no
+2022-10-19T13:56:41+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id71
+2022-10-19T13:56:41+00:00 INFO Called createRazorpayOrderId with params orderId 71 and sessionKey razorpay_order_id71
+2022-10-19T13:56:41+00:00 INFO Called getOrderCreationData with params orderId 71
+2022-10-19T13:56:41+00:00 INFO Called getOrderCreationData with params orderId 71 and is1ccOrder is set to no
+2022-10-19T13:56:41+00:00 INFO For order 71
+2022-10-19T13:56:41+00:00 INFO {"receipt":71,"amount":13800,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"71"}}

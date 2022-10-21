@@ -1,0 +1,282 @@
+10-19-2022 @ 13:22:45 - Starting migration from legacy extension
+10-19-2022 @ 13:22:45 - Migration complete
+10-19-2022 @ 13:23:35 - 0 - Not authenticated
+10-19-2022 @ 13:23:44 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/utilities/ping
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.14142s
+
+10-19-2022 @ 13:23:44 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:23:44 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 71
+    [serverduration] => 00:00:00.0003012
+    [databasecalls] => 0
+    [databaseduration] => 00:00:00
+    [serviceduration] => 00:00:00
+    [api-supported-versions] => 2.0
+    [strict-transport-security] => max-age=31536000; includeSubdomains; preload
+    [x-content-type-options] => nosniff
+    [x-frame-options] => sameorigin
+    [x-xss-protection] => 1; mode=block
+    [referrer-policy] => same-origin
+    [x-permitted-cross-domain-policies] => none
+    [cache-control] => max-age=3600;
+    [x-correlation-id] => e9dabf75-a849-4e97-bebd-0f86a3c654e1
+    [x-avalara-uid] => e9dabf75-a849-4e97-bebd-0f86a3c654e1
+)
+body: {"version":"22.10.0","authenticated":false,"authenticationType":"None"}
+
+10-19-2022 @ 13:23:44 - 0 - Not authenticated
+10-19-2022 @ 13:30:28 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/definitions/entityusecodes
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.1295s
+
+10-19-2022 @ 13:30:28 - Response
+Response
+code: 401
+message: Unauthorized
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:30:28 GMT
+    [content-type] => application/json
+    [content-length] => 361
+    [x-content-type-options] => nosniff
+    [x-correlation-id] => 008d4c13-1de3-4b32-8e80-5f4e14f965fa
+    [x-avalara-uid] => 008d4c13-1de3-4b32-8e80-5f4e14f965fa
+)
+body: {"error": {"code": "AuthenticationException","message": "Authentication failed.","details": [{"code": "AuthenticationException","message": "Authentication failed.","description": "Missing authentication or unable to authenticate the user or the account.","faultCode": "Client","helpLink": "http://developer.avalara.com/avatax/errors/AuthenticationException"}]}}
+
+10-19-2022 @ 13:30:28 - [] Authentication failed. Missing authentication or unable to authenticate the user or the account.
+10-19-2022 @ 13:32:44 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/utilities/ping
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.10822s
+
+10-19-2022 @ 13:32:44 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:32:44 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 71
+    [serverduration] => 00:00:00.0003827
+    [databasecalls] => 0
+    [databaseduration] => 00:00:00
+    [serviceduration] => 00:00:00
+    [api-supported-versions] => 2.0
+    [strict-transport-security] => max-age=31536000; includeSubdomains; preload
+    [x-content-type-options] => nosniff
+    [x-frame-options] => sameorigin
+    [x-xss-protection] => 1; mode=block
+    [referrer-policy] => same-origin
+    [x-permitted-cross-domain-policies] => none
+    [cache-control] => max-age=3600;
+    [x-correlation-id] => 33660013-bc7a-4f07-b990-b2241c9c1a56
+    [x-avalara-uid] => 33660013-bc7a-4f07-b990-b2241c9c1a56
+)
+body: {"version":"22.10.0","authenticated":false,"authenticationType":"None"}
+
+10-19-2022 @ 13:32:44 - 0 - Not authenticated
+10-19-2022 @ 13:37:47 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/utilities/ping
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.11674s
+
+10-19-2022 @ 13:37:47 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:37:47 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 71
+    [serverduration] => 00:00:00.0002834
+    [databasecalls] => 0
+    [databaseduration] => 00:00:00
+    [serviceduration] => 00:00:00
+    [api-supported-versions] => 2.0
+    [strict-transport-security] => max-age=31536000; includeSubdomains; preload
+    [x-content-type-options] => nosniff
+    [x-frame-options] => sameorigin
+    [x-xss-protection] => 1; mode=block
+    [referrer-policy] => same-origin
+    [x-permitted-cross-domain-policies] => none
+    [cache-control] => max-age=3600;
+    [x-correlation-id] => 4ef0aa95-400d-4c17-93a6-fb2d84006ea8
+    [x-avalara-uid] => 4ef0aa95-400d-4c17-93a6-fb2d84006ea8
+)
+body: {"version":"22.10.0","authenticated":false,"authenticationType":"None"}
+
+10-19-2022 @ 13:37:47 - 0 - Not authenticated
+10-19-2022 @ 13:40:46 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/definitions/entityusecodes
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.12841s
+
+10-19-2022 @ 13:40:46 - Response
+Response
+code: 401
+message: Unauthorized
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:40:46 GMT
+    [content-type] => application/json
+    [content-length] => 361
+    [x-content-type-options] => nosniff
+    [x-correlation-id] => e43dd55e-1294-4d5f-a8b0-014df99a6223
+    [x-avalara-uid] => e43dd55e-1294-4d5f-a8b0-014df99a6223
+)
+body: {"error": {"code": "AuthenticationException","message": "Authentication failed.","details": [{"code": "AuthenticationException","message": "Authentication failed.","description": "Missing authentication or unable to authenticate the user or the account.","faultCode": "Client","helpLink": "http://developer.avalara.com/avatax/errors/AuthenticationException"}]}}
+
+10-19-2022 @ 13:40:46 - [] Authentication failed. Missing authentication or unable to authenticate the user or the account.
+10-19-2022 @ 13:59:52 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/utilities/ping
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.18201s
+
+10-19-2022 @ 13:59:52 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 13:59:52 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 71
+    [serverduration] => 00:00:00.0002461
+    [databasecalls] => 0
+    [databaseduration] => 00:00:00
+    [serviceduration] => 00:00:00
+    [api-supported-versions] => 2.0
+    [strict-transport-security] => max-age=31536000; includeSubdomains; preload
+    [x-content-type-options] => nosniff
+    [x-frame-options] => sameorigin
+    [x-xss-protection] => 1; mode=block
+    [referrer-policy] => same-origin
+    [x-permitted-cross-domain-policies] => none
+    [cache-control] => max-age=3600;
+    [x-correlation-id] => f95d2432-34a2-47dd-8405-256f15b01c7f
+    [x-avalara-uid] => f95d2432-34a2-47dd-8405-256f15b01c7f
+)
+body: {"version":"22.10.0","authenticated":false,"authenticationType":"None"}
+
+10-19-2022 @ 13:59:52 - 0 - Not authenticated
+10-19-2022 @ 14:05:07 - Request
+Request
+method: GET
+uri: https://sandbox-rest.avatax.com/api/v2/utilities/ping
+user-agent: WooCommerce-AvaTax/1.16.3 (WooCommerce/7.0.0; WordPress/6.0.3)
+headers: Array
+(
+    [Authorization] => **********
+    [content-type] => application/json
+    [accept] => application/json
+    [X-Avalara-Client] => WCSkyVerge RESTv2;REST;REST;v2;WordPress
+    [X-Avalara-UID] => a0o33000004goTr
+)
+body:
+duration: 1.12904s
+
+10-19-2022 @ 14:05:07 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [date] => Wed, 19 Oct 2022 14:05:07 GMT
+    [content-type] => application/json; charset=utf-8
+    [content-length] => 71
+    [serverduration] => 00:00:00.0003044
+    [databasecalls] => 0
+    [databaseduration] => 00:00:00
+    [serviceduration] => 00:00:00
+    [api-supported-versions] => 2.0
+    [strict-transport-security] => max-age=31536000; includeSubdomains; preload
+    [x-content-type-options] => nosniff
+    [x-frame-options] => sameorigin
+    [x-xss-protection] => 1; mode=block
+    [referrer-policy] => same-origin
+    [x-permitted-cross-domain-policies] => none
+    [cache-control] => max-age=3600;
+    [x-correlation-id] => f9c28c35-ab63-4774-8adf-1332acac35b7
+    [x-avalara-uid] => f9c28c35-ab63-4774-8adf-1332acac35b7
+)
+body: {"version":"22.10.0","authenticated":false,"authenticationType":"None"}
+
+10-19-2022 @ 14:05:07 - 0 - Not authenticated
